@@ -8,7 +8,12 @@ export default function Layout() {
                 headerTintColor: "#fff",
                 headerTitleStyle: { fontWeight: "bold" },
             }}
-        />
-        );
-}
+        >
 
+        <Stack.Screen name="index" options={{ title: "Home" }} />
+        <Stack.Screen name="produtos" options={{ title: "Produtos 🛒" }} />
+        <Stack.Screen name="sobre" options={{ title: "Sobre ℹ️" }} />
+        <Stack.Screen name="contato" options={{ title: "Contato 📞" }} />
+        </Stack>
+    );
+}
